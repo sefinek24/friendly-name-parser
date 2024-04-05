@@ -1,0 +1,33 @@
+{
+  "name": "pretty-username",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "username",
+    "pretty-username",
+    "pretty",
+    "name",
+    "user",
+    "user-name",
+    "user-name-pretty",
+    "user-name-pretty-username"
+  ],
+  "homepage": "https://github.com/sefinek24/pretty-username#readme",
+  "bugs": {
+    "url": "https://github.com/sefinek24/pretty-username/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefinek24/pretty-username.git"
+  },
+  "license": "MIT",
+  "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest test",
+    "up": "ncu -u && npm install && npm update && npm audit fix"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
