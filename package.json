@@ -1,24 +1,24 @@
 {
-  "name": "pretty-username",
+  "name": "friendly-name-parser",
   "version": "1.0.0",
-  "description": "",
+  "description": "A module that allows for the normalization of usernames and validation to detect HTML, JS, or PHP code.",
   "keywords": [
     "username",
-    "pretty-username",
+    "friendly-name-parser",
     "pretty",
     "name",
     "user",
     "user-name",
     "user-name-pretty",
-    "user-name-pretty-username"
+    "user-name-friendly-name-parser"
   ],
-  "homepage": "https://github.com/sefinek24/pretty-username#readme",
+  "homepage": "https://github.com/sefinek24/friendly-name-parser#readme",
   "bugs": {
-    "url": "https://github.com/sefinek24/pretty-username/issues"
+    "url": "https://github.com/sefinek24/friendly-name-parser/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sefinek24/pretty-username.git"
+    "url": "git+https://github.com/sefinek24/friendly-name-parser.git"
   },
   "license": "MIT",
   "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",

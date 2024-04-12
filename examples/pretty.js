@@ -1,4 +1,4 @@
-const prettyUsername = require('../src/index.js');
+const FriendlyNameParser = require('../src/index.js');
 
 const data = [
 	'GRzegorz bRZĘCZYSZCZYKIEWICZ!',
@@ -10,5 +10,5 @@ const data = [
 
 data.forEach(input => {
 	console.log(`Original : ${input}`);
-	console.log(`Pretty   : ${prettyUsername(input).pretty}\n`);
+	console.log(`Pretty   : ${FriendlyNameParser(input).pretty}\n`);
 });
