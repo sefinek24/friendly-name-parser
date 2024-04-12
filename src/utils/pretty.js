@@ -16,10 +16,6 @@ const specialCases = {
 	'javascript': 'JavaScript',
 };
 
-function adjustCapitalizationForSpecialCases(word) {
-	return specialCases[word.toLowerCase()] || word;
-}
-
 module.exports = (inputString, breakSpaces) => {
 	const emailMatch = inputString.match(emailRegex);
 	if (emailMatch) {
@@ -47,7 +43,8 @@ module.exports = (inputString, breakSpaces) => {
 		.replace(spaceBeforePunctuationRegex, '$1')
 		.split(/\s+/)
 		.map((word, index) => {
-			word = adjustCapitalizationForSpecialCases(word);
+			word = specialCases[word.toLowerCase()] || word;
+
 			if (index === 0 || !lowerCaseWords.has(word.toLowerCase())) {
 				return word.charAt(0).toUpperCase() + word.slice(1);
 			} else {
