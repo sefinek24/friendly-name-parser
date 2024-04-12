@@ -35,7 +35,7 @@ npm install friendly-name-parser
 ### 🌍 Browser
 If you want to use this module in a browser, you can use the following HTML code:
 ```html
-<script src="https://cdn.jsdelivr.net/npm/friendly-name-parser/dist/friendly-name-parser.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/friendly-name-parser@1/dist/friendly-name-parser.min.js"></script>
 ```
 
 
