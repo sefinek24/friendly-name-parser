@@ -7,9 +7,6 @@ const invalidCharsRegex = /[^a-z0-9\s'ąęółśżźćńĄĘÓŁŚŻŹĆŃ~]/gi;
 const multipleDotsRegex = /\.{2,}/g;
 const excessiveSpacesRegex = /\s{3,}/g;
 const spaceBeforePunctuationRegex = /\s([,.])/g;
-const uwuRegex = /uwu\b/gi;
-const owoRegex = /owo\b/gi;
-const oniichanRegex = /oniichan\b/gi;
 
 const lowerCaseWords = new Set(['the', 'a', 'an', 'and', 'but', 'or', 'for', 'nor', 'on', 'at', 'to', 'from', 'by']);
 const specialCases = {
@@ -60,8 +57,5 @@ module.exports = (inputString, breakSpaces) => {
 		.join(' ')
 		.replace(/\s{2,}/g, ' ')
 		.replace(/\.$/, '')
-		.replace(uwuRegex, 'UwU')
-		.replace(owoRegex, 'OwO')
-		.replace(oniichanRegex, 'Onii-chan')
 		.trim();
 };
