@@ -1,6 +1,6 @@
 {
   "name": "friendly-name-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A module that allows for the normalization of usernames and validation to detect HTML, JS, or PHP code.",
   "keywords": [
     "username",
