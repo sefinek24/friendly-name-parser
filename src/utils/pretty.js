@@ -13,7 +13,7 @@ const specialCases = {
 	'html': 'HTML',
 	'css': 'CSS',
 	'js': 'JS',
-	'javascript': 'JavaScript',
+	'javascript': 'JavaScript'
 };
 
 module.exports = (inputString, breakSpaces) => {
